@@ -62,10 +62,13 @@ h1 {
     font-size: 14pt;
 }
 
+
 /*Estrutura das imagens*/
 .docs_base {
 
     display: flex;
+    background-position: 100%;
+    flex-wrap: wrap;
 
 }
 
@@ -75,7 +78,6 @@ h1 {
     border-radius: 8%;
     margin-left: 80px;
     margin-top: 140px;
-    display: inline-flex;
     display: flex;
 }
 
@@ -122,6 +124,19 @@ h1 {
     margin-top: 140px;
     display: inline-flex;
     display: flex;
+
+}
+
+#scrip {
+
+    height: 300px;
+    border-radius: 8%;
+    margin-left: 80px;
+    margin-top: 140px;
+    display: inline-flex;
+    display: flex;
+    cursor: pointer;
+
 
 }
 
