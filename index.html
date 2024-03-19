@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Mestra</title>
+
+    <link rel="shortcut icon" href="image/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
+</head>
+
+<body>
+
+<!--Projeto é criar uma area de Login-->
+
+        <!---Navegação e titulo--->
+    <header>
+
+        <!---Titulo--->
+        <h1><strong><i>LISTA MESTRA</i></strong></h1>
+        
+        <!---Realizar navegação--->
+        <div class="sidebar">
+            <div class="dropdown">
+                <button class="dropbtn"><span class="fa solid fa-bars" style="color: #10403B"></span></button>              
+                <div class="dropdown-content">
+                <a href="#">Ajuda</a>
+                <a href="#">Sair</a>
+              </div>
+            </div>
+          </div>
+        
+    </header>
+
+       <!---redireciona para outra pagina para criar novos arquivos --->
+    <div class="arquivo" >
+        <a href="arquivo.html">
+            <button id="arqui">Novo Arquivo + </button>
+        </a>
+    </div>
+
+        <!---Conteudo principal da pagina---> 
+    <div class="tudo">
+        
+        <!---Pesquisar o arquivo--->
+    <div class="pesquisar" >
+        <input id="pesquisa" type="text" placeholder="Pesquisar">
+    </div>
+
+        <!---Selecionar o setor para analisar a documentação --->
+    <div class="setores">
+
+        <select name="setor" id="setes">
+
+            <option value="button">ACTIONAID</option>
+                    <option value="button">AMIL</option>
+                    <option value="button">ATLAS</option>
+                    <option value="button">BANCO BARI (OFF)</option>
+                    <option value="button">BANCO FIDS</option>
+                    <option value="button">BEAUTYCOLOR</option>
+                    <option value="button">BELEZA PRO</option>
+                    <option value="button">BRW</option>
+                    <option value="button">CLL</option>
+                    <option value="button">CONTABILIZEI (OFF)</option>
+                    <option value="button">DANONE</option>
+                    <option value="button">DLOCAL</option>
+                    <option value="button">DOCKTECH</option>
+                    <option value="button">ELECTROLUX</option>
+                    <option value="button">ERASTO CAPTAÇÃO</option>
+                    <option value="button">ERASTO RECEPTIVO</option>
+                    <option value="button">EUDORA ATIVAÇÃO</option>
+                    <option value="button">EUDORA RECEPTIVO</option>
+                    <option value="button">EUDORA INÍCIOS</option>
+                    <option value="button">FLEET (OFF)</option>
+                    <option value="button">GESTAUTO</option>
+                    <option value="button">GONZAGA</option>
+                    <option value="button">HOSP. ANGELINA CARON</option>
+                    <option value="button">IETAMM (OFF)</option>
+                    <option value="button">J. MACÊDO</option>
+                    <option value="button">JAMES (OFF)</option>
+                    <option value="button">JLL</option>
+                    <option value="button">JUNTOS SEGUROS</option>
+                    <option value="button">LIGGA</option>
+                    <option value="button">LOPAS (OFF)</option>
+                    <option value="button">MADEIRA.MADEIRA (OFF)</option>
+                    <option value="button">MOBLY (OFF)</option>
+                    <option value="button">MOOZ MRD (OFF)</option>
+                    <option value="button">MSF</option>
+                    <option value="button">NDI (OFF)</option>
+                    <option value="button">NDI SAC CCG (OFF)</option>
+                    <option value="button">NDI SAC MINAS (OFF)</option>
+                    <option value="button">NEODENT (OFF)</option>
+                    <option value="button">oBOTICARIO ATIVAÇÃO</option>
+                    <option value="button">oBOTICARIO INÍCIOS</option>
+                    <option value="button">oBOTICARIO INÍCIOS PT E LATAM</option>
+                    <option value="button">OCRIM</option>
+                    <option value="button">OMNI CHANNEL</option>
+                    <option value="button">OURO VERDE LOCAÇÃO</option>
+                    <option value="button">OURO VERDE OUTBOUND</option>
+                    <option value="button">PARANÁ CLÍNICAS</option>
+                    <option value="button">PORTO ITAPOÁ</option>
+                    <option value="button">PUC PR</option>
+                    <option value="button">RCI</option>
+                    <option value="button">ROD</option>
+                    <option value="button">SALÕES 99</option>
+                    <option value="button">SÃO CAMILO</option>
+                    <option value="button">TEMPO MEDICINA (OFF)</option>
+                    <option value="button">TEMPO MEDICINA FLORIANOPOLIS</option>
+                    <option value="button">VDF</option>
+                    <option value="button">COMERCIAL</option>
+                    <option value="button">COMPRAS</option>
+                    <option value="button">DHO</option>
+                    <option value="button">FACILITIES</option>
+                    <option value="button">FINANCEIRO</option>
+                    <option value="button">PLANEJAMENTO</option>
+                    <option value="button">PROCESSOS</option>
+                    <option value="button">QUALIDADE</option>
+                    <option value="button">RECRUTAMENTO E SELEÇÃO</option>
+                    <option value="button">RH ADMINISTRATIVO</option>
+                    <option value="button">SESMT</option>
+                    <option value="button">TI</option>
+                    <option value="button">TREINAMENTO</option>
+
+
+        </select>
+    </div>
+
+        <!---Selecionar a data de validação dos arquivos--->
+    <div class="dia_mes">
+        <input id="data" type="date">
+    </div>
+
+    </div>
+
+<!--Tabela para manipulação de arquivos-->
+<div class="tabela_container">
+    <table id="tabela" border="1">
+        <tr id="tabli">
+            <td id="cod">Código</td>
+            <td id="doc">Documentos</td>
+            <td id="date">Data de Validação</td>
+            <td id="oper">Operação | Setor</td>
+            <td id="vers">Versão do  Documento</td>
+        </tr>
+        
+    </table>
+</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

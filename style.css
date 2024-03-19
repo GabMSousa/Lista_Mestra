@@ -1,0 +1,198 @@
+body {
+    background-color:#BFBFBF ;
+}
+
+h1 {
+    color: #10403B;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 3.5px 2.6px 10.9px rgba(0, 0, 0, 0.5);
+}
+
+.dropbtn {
+
+  background-color: transparent;
+  border-color: transparent;
+  
+}
+
+/*Barr de navegação*/
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 100px;
+  left: 95%;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/*Barr de navegação*/
+.dropdown-content {
+  display: none;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/*Barr de navegação*/
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/*Barr de navegação*/
+.dropdown-content a:hover {background-color: #10403B; color: white;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+/*deixar um do lado do outro os elementos*/
+.tudo {
+
+    display: inline-flex;
+    margin-top: 10px;
+
+}
+
+/*arrumar a margem do criar novo arquivo*/
+.arquivo {
+    margin-left: 12px;
+    display: flex;
+}
+
+/*estilo do novo arquivo*/
+#arqui {
+
+    background-color: #8AA6A3;
+    border-radius: 25px;
+    border-color: transparent;
+    width: 150px;
+    height: 23px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*arrumar a margem do botao pesquisar*/
+.pesquisar {
+
+    margin-left: 12px;
+    display: flex;
+
+}
+
+/*estilo do botao pesquisar*/
+#pesquisa {
+    
+    display: flex;
+    background-color: #8AA6A3;
+    border-radius: 25px;
+    border-color: transparent;
+    width: 200px;
+    height: 18px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*arrumar a margem do seletor de setores*/
+.setores {
+
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+/*estilo do seletor de setores*/
+#setes {
+
+    border-radius: 25px;
+    background-color: #8AA6A3;
+    border-color: transparent;
+    text-align: center;
+    width: 189px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*arrumar a margem do botao data*/
+.dia_mes {
+
+    display: flex;
+    margin-left:20px ;
+    margin-top: 10px;
+
+}
+
+/*estilo do seletor de dia*/
+#data {
+
+    border-radius: 25px;
+    background-color: #8AA6A3;
+    border-color: transparent;
+    text-align: center;
+    width: 170px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+/*Barr de navegação*/
+
+
+  /*arrunar margem da tabela*/
+  .tabela_container {
+
+    display: flex;
+    margin-top: 100px;
+    margin-left: 12px;
+    border-collapse: collapse;
+
+
+  }
+
+  /*estilo da tabela*/
+  #tabela {
+
+    table-layout: fixed;
+    width:  1840px;
+    height: 10px;
+    text-align: center;
+    border-style: solid;
+    border-color: #8AA6A3;
+    border-collapse: collapse;
+    
+
+
+  }
+
+  /*estilo das  colunas*/
+  #tabli {
+
+    background-color: #10403B;
+    color: #BFBFBF;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+
+ /*estilo de cada celula*/
+  #cod{
+    width: 120px;
+  }
+  #doc {
+    width: 650px;
+  }
+  #date {
+    width:  200px;
+  }
+  #oper {
+    width: 250px;
+  }
+  #vers {
+    width: 150px;
+  }
