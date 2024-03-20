@@ -19,12 +19,12 @@ h1 {
 
 /*Barr de navegação*/
 .sidebar {
-  height: 100%;
-  width: 160px;
+  height: 120px;
+  width: 90px;
   position: fixed;
   z-index: 1;
-  top: 100px;
-  left: 95%;
+  top: 50px;
+  left: 1%;
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -74,7 +74,7 @@ h1 {
     border-color: transparent;
     width: 150px;
     height: 23px;
-    margin-top: 100px;
+    margin-top: 80px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -149,7 +149,7 @@ h1 {
   .tabela_container {
 
     display: flex;
-    margin-top: 100px;
+    margin-top: 20px;
     margin-left: 12px;
     border-collapse: collapse;
 
@@ -159,12 +159,11 @@ h1 {
   /*estilo da tabela*/
   #tabela {
 
-    table-layout: fixed;
-    width:  1840px;
-    height: 10px;
+    width:  97%;
+    height: 10%;
     text-align: center;
     border-style: solid;
-    border-color: #8AA6A3;
+    border-color: black;
     border-collapse: collapse;
     
 
@@ -183,6 +182,7 @@ h1 {
  /*estilo de cada celula*/
   #cod{
     width: 120px;
+
   }
   #doc {
     width: 650px;
@@ -191,7 +191,7 @@ h1 {
     width:  200px;
   }
   #oper {
-    width: 250px;
+    width: 200px;
   }
   #vers {
     width: 150px;
