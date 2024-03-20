@@ -69,14 +69,22 @@ h1 {
 .docs_base {
 
     display: flex;
-    background-position: 100%;
-    flex-wrap: wrap;
+    overflow: none;
 
 }
 
 
+.docs_ {
 
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 50px;
+    display: flex;
+}
 
+#ola {
+    border-radius: 9px;
+}
 
 
 .motivacao {
