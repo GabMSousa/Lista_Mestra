@@ -69,15 +69,14 @@ h1 {
 .docs_base {
 
     display: flex;
-    overflow: none;
-
+    overflow-x: auto;
 }
 
 
 .docs_ {
 
-    height: 250px;
-    margin-left: 20px;
+    height: 380px;
+    margin-left: 50px;
     margin-top: 50px;
     display: flex;
 }
