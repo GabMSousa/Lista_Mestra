@@ -176,13 +176,13 @@ h1 {
     background-color: #10403B;
     color: #BFBFBF;
     font-family: 'Courier New', Courier, monospace;
+    
 
   }
 
  /*estilo de cada celula*/
   #cod{
     width: 120px;
-
   }
   #doc {
     width: 650px;
@@ -196,3 +196,6 @@ h1 {
   #vers {
     width: 150px;
   }
+
+
+  
